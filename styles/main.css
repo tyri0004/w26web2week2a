@@ -2,3 +2,10 @@ body{
     background-color: pink;
     color: white;
 }
+.containter{
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
