@@ -10,4 +10,11 @@ body{
     background-color: black;
 
 }
+@media screen and (min-width:700px){
+    main{
+        /* make the elements inside the main sit next to each other */
+        display:grid; 
+        grid-template-columns: 1fr 3fr;
+    }
+}
 
